@@ -10,54 +10,59 @@ body{
     display: inline-block;
 }
 .content-1 p{
-    width: 40%;
+    font-family: 'K2D', sans-serif;
+    width: 60%;
     float: left;
     text-align: left;
     padding-left: 16px;
+    padding-top: 36px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .content-1 img{
     width: 180px;
     height: 160px;
     float: left;
-    margin-left: 36px;
 }
 .content-2{
     display: inline-block;
+    margin-right: 24px
 }
 .content-2 p{
+    font-family: 'K2D', sans-serif;
+    width: 80%;
     text-align: right;
-    width: 40%;
     float: right;
-    padding-right: 16px;
+    padding-top: 28px;
+    padding-right: 8px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .content-2 img{
-    width: 300px;
+    width: 360px;
     height: 200px;
     float: right;
     margin-right: 36px;
-}
-.content-3{
-    display: inline-block;
-}
-.content-3 p{
-    text-align: left;
-    width: 40%;
-    float: left;
     padding-left: 16px;
 }
-.content-3 img{
-    float: left;
-    margin-left: 36px;
-
-}
 .contact{
+    font-size: 20px;
     display: inline-block;
-}
-li{
+    text-align: left;
+    margin-left: 48px;
+    margin-bottom: 16px;
+    padding: 28px;
     float: left;
 }
-li a{
-    float: left;
-    font-size: 18px;
-    padding: 8px 0 8px 0;
+.contact a:visited {
+    color: #023047;
+    font-weight: bolder;
+}
+.contact a{
+    color: #023047;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.contact a:hover{
+    color: #8ecae6;
 }
